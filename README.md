@@ -139,10 +139,5 @@ MIT License
 
 ## Авторы
 
-[Ваше имя] - Начальная разработка
+[REKVID](https://github.com/REKVID)
 
-## Благодарности
-
-- Telegram Bot API
-- Go community
-```
