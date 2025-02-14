@@ -1,13 +1,14 @@
-package ImgHandler
+package handlers
 
 import (
 	"fmt"
-	"github.com/go-telegram-bot-api/telegram-bot-api/v5"
 	"io"
 	"net/http"
 	"os"
 	"path/filepath"
 	"time"
+
+	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )
 
 func DownloadPhoto(bot *tgbotapi.BotAPI, message *tgbotapi.Message, position, objectName string) (string, error) {

@@ -1,4 +1,4 @@
-package CategoryValidate
+package handlers
 
 import (
 	"TgTaskBot/Config"

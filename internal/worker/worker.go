@@ -1,12 +1,12 @@
-package Worker
+package worker
 
 import (
-	"TgTaskBot/CategoryValidate"
 	"TgTaskBot/Config"
-	"TgTaskBot/ImgHandler"
-	"TgTaskBot/Log"
+	"TgTaskBot/pkg/handlers"
+	Log "TgTaskBot/pkg/logger"
 	"fmt"
-	"github.com/go-telegram-bot-api/telegram-bot-api/v5"
+
+	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )
 
 type Worker struct {
@@ -68,7 +68,7 @@ func (w *Worker) ShowObjectNameSelection(bot *tgbotapi.BotAPI, message *tgbotapi
 				ShowRoleSelection(bot, update.Message)
 				return
 			}
-			if !CategoryValidate.IsObjectSelection(selectedObject) {
+			if !handlers.IsObjectSelection(selectedObject) {
 				Log.FileLogger.Printf("WARNING: User %s selected an invalid object: %s", message.From.UserName, selectedObject)
 				if _, err := bot.Send(tgbotapi.NewMessage(message.Chat.ID, "Выберите объект из списка")); err != nil {
 					Log.FileLogger.Printf("ERROR: Failed to send invalid object message: %v", err)
@@ -134,7 +134,7 @@ func (w *Worker) ShowPositionSelection(bot *tgbotapi.BotAPI, message *tgbotapi.M
 				ShowRoleSelection(bot, update.Message)
 				return
 			}
-			if !CategoryValidate.IsPositionSelection(selectedPosition) {
+			if !handlers.IsPositionSelection(selectedPosition) {
 				Log.FileLogger.Printf("WARNING: User ID %d selected an invalid position: %s", message.From.ID, selectedPosition)
 				if _, err := bot.Send(tgbotapi.NewMessage(message.Chat.ID, "Выберите должность из списка")); err != nil {
 					Log.FileLogger.Printf("ERROR: Failed to send invalid position message: %v", err)
@@ -175,9 +175,9 @@ func (w *Worker) HandlePhoto(bot *tgbotapi.BotAPI, message *tgbotapi.Message) {
 	}
 
 	// Загрузка и сохранение фото
-	filePath, err := ImgHandler.DownloadPhoto(bot, message, w.Position, w.ObjectName)
+	filePath, err := handlers.DownloadPhoto(bot, message, w.Position, w.ObjectName)
 	if err != nil {
-		Log.FileLogger.Printf("ERROR: Failed to download photo from user %d: %v", message.From.UserName, err)
+		Log.FileLogger.Printf("ERROR: Failed to download photo from user %s: %v", message.From.UserName, err)
 		if _, err := bot.Send(tgbotapi.NewMessage(message.Chat.ID, fmt.Sprintf("⛔ Ошибка: %v", err))); err != nil {
 			Log.FileLogger.Printf("ERROR: Failed to send error message: %v", err)
 		}

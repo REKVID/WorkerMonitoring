@@ -2,8 +2,9 @@ package Admin
 
 import (
 	"TgTaskBot/Config"
-	"TgTaskBot/Log"
-	"github.com/go-telegram-bot-api/telegram-bot-api/v5"
+	Log "TgTaskBot/pkg/logger"
+
+	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )
 
 type Admin struct {

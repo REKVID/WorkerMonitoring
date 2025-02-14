@@ -1,12 +1,13 @@
-package main
+package bot
 
 import (
-	"TgTaskBot/Admin"
 	"TgTaskBot/Config"
-	"TgTaskBot/Log"
-	"TgTaskBot/Worker"
-	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
+	Admin "TgTaskBot/internal/admin"
+	Worker "TgTaskBot/internal/worker"
+	Log "TgTaskBot/pkg/logger"
 	"sync"
+
+	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )
 
 type UserState struct {

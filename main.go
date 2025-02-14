@@ -2,17 +2,18 @@ package main
 
 import (
 	"TgTaskBot/Config"
-	"TgTaskBot/Log"
+	"TgTaskBot/internal/bot"
+	Log "TgTaskBot/pkg/logger"
 	"os"
 
-	"github.com/go-telegram-bot-api/telegram-bot-api/v5"
+	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )
 
 func main() {
 	Log.InitLogger()
 
 	// Загрузка конфигурации
-	err := Config.LoadConfig("./Config/configuration.json")
+	err := Config.LoadConfig("./configuration.json")
 	if err != nil {
 		Log.FileLogger.Printf("ERROR: Failed to load config: %v", err)
 		os.Exit(1)
@@ -34,14 +35,7 @@ func main() {
 	// Обработка входящих сообщений
 	for update := range updates {
 		if update.Message != nil {
-			//Log.FileLogger.Printf(
-			//	"DEBUG: Received message from @%s (ID:%d): %s",
-			//	update.Message.From.UserName,
-			//	update.Message.From.ID,
-			//	update.Message.Text,
-			//)
-
-			HandleMessage(botAPI, update.Message, updates)
+			bot.HandleMessage(botAPI, update.Message, updates)
 		}
 	}
 }

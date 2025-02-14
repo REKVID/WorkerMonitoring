@@ -1,14 +1,15 @@
 package Admin
 
 import (
-	"TgTaskBot/CategoryValidate"
 	"TgTaskBot/Config"
-	"TgTaskBot/Log"
-	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
+	"TgTaskBot/pkg/handlers"
+	Log "TgTaskBot/pkg/logger"
 	"log"
 	"os"
 	"path/filepath"
 	"strings"
+
+	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )
 
 func (a *Admin) AddObject(bot *tgbotapi.BotAPI, message *tgbotapi.Message, updates tgbotapi.UpdatesChannel) {
@@ -149,7 +150,7 @@ func (a *Admin) selectObject(bot *tgbotapi.BotAPI, message *tgbotapi.Message, up
 			a.ShowAdminOptions(bot, update.Message)
 			return ""
 		}
-		if update.Message != nil && CategoryValidate.IsObjectSelection(update.Message.Text) {
+		if update.Message != nil && handlers.IsObjectSelection(update.Message.Text) {
 			return update.Message.Text
 		}
 		bot.Send(tgbotapi.NewMessage(message.Chat.ID, "⛔ Неверный выбор. Попробуйте снова."))
@@ -168,7 +169,7 @@ func (a *Admin) selectPosition(bot *tgbotapi.BotAPI, message *tgbotapi.Message, 
 			a.ShowAdminOptions(bot, update.Message)
 			return ""
 		}
-		if update.Message != nil && CategoryValidate.IsPositionSelection(update.Message.Text) {
+		if update.Message != nil && handlers.IsPositionSelection(update.Message.Text) {
 			return update.Message.Text
 		}
 		bot.Send(tgbotapi.NewMessage(message.Chat.ID, "⛔ Неверный выбор. Попробуйте снова."))
@@ -186,7 +187,7 @@ func (a *Admin) selectDate(bot *tgbotapi.BotAPI, message *tgbotapi.Message, upda
 			a.ShowAdminOptions(bot, update.Message)
 			return ""
 		}
-		if update.Message != nil && CategoryValidate.IsDateSelection(update.Message.Text) {
+		if update.Message != nil && handlers.IsDateSelection(update.Message.Text) {
 			return update.Message.Text
 		}
 		bot.Send(tgbotapi.NewMessage(message.Chat.ID, "⛔ Неверный формат даты. Попробуйте снова."))
