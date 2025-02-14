@@ -1,0 +1,598 @@
+2025/01/30 20:01:17 Logger Created
+2025/01/30 20:01:17 INFO: Config loaded successfully.
+2025/01/30 20:01:19 INFO: Authorized as Task_Img_Tracker_bot
+2025/01/30 20:01:19 INFO: Starting updates processing...
+2025/01/30 20:01:35 DEBUG: Received message from @rekviid (ID:514646676): Вернуться в главное меню
+2025/01/30 20:01:35 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/01/30 20:01:35 INFO: User rekviid returned to the main menu
+2025/01/30 20:01:35 DEBUG: Showing role selection for user: rekviid
+2025/01/30 20:01:35 DEBUG: Received message from @rekviid (ID:514646676): Вернуться в главное меню
+2025/01/30 20:01:35 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/01/30 20:01:35 INFO: User rekviid returned to the main menu
+2025/01/30 20:01:35 DEBUG: Showing role selection for user: rekviid
+2025/01/30 20:01:39 DEBUG: Received message from @rekviid (ID:514646676): Работник
+2025/01/30 20:01:39 DEBUG: Received message from @rekviid: Работник
+2025/01/30 20:01:39 INFO: User rekviid selected role: Worker
+2025/01/30 20:01:39 INFO: Worker rekviid started the photo upload process
+2025/01/30 20:01:39 DEBUG: Showing object selection for user: rekviid
+2025/01/30 20:01:41 INFO: User rekviid selected object: Объект 1
+2025/01/30 20:01:41 DEBUG: Showing position selection for user: rekviid
+2025/01/30 20:01:43 INFO: User ID 514646676 selected position: Охранник
+2025/01/30 20:01:43 DEBUG: Requesting photo from user: rekviid
+2025/01/30 20:01:50 DEBUG: Received message from @rekviid (ID:514646676): Вернуться в главное меню
+2025/01/30 20:01:50 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/01/30 20:01:50 INFO: User rekviid returned to the main menu
+2025/01/30 20:01:50 DEBUG: Showing role selection for user: rekviid
+2025/01/30 20:01:51 DEBUG: Received message from @rekviid (ID:514646676): Администратор
+2025/01/30 20:01:51 DEBUG: Received message from @rekviid: Администратор
+2025/01/30 20:01:51 INFO: User rekviid selected role: Admin
+2025/01/30 20:01:51 INFO: User rekviid is requesting admin access
+2025/01/30 20:02:01 WARNING: User rekviid entered incorrect admin key: 1227
+2025/01/30 20:02:05 INFO: User rekviid returned to the main menu from admin key request
+2025/01/30 20:02:16 DEBUG: Received message from @rekviid (ID:514646676): Вернуться в главное меню
+2025/01/30 20:02:16 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/01/30 20:02:16 INFO: User rekviid returned to the main menu
+2025/01/30 20:02:16 DEBUG: Showing role selection for user: rekviid
+2025/01/30 20:02:21 DEBUG: Received message from @rekviid (ID:514646676): Администратор
+2025/01/30 20:02:21 DEBUG: Received message from @rekviid: Администратор
+2025/01/30 20:02:21 INFO: User rekviid selected role: Admin
+2025/01/30 20:02:21 INFO: User rekviid is requesting admin access
+2025/01/30 20:02:25 INFO: User rekviid successfully logged in as admin
+2025/01/30 20:02:26 INFO: Showing admin options to User rekviid
+2025/01/30 20:02:29 DEBUG: Received message from @rekviid (ID:514646676): Просмотр файловой системы
+2025/01/30 20:02:29 DEBUG: Received message from @rekviid: Просмотр файловой системы
+2025/01/30 20:02:29 INFO: User rekviid is viewing the file system
+2025/01/30 20:02:29 INFO: Admin 514646676 requested ListFileSystem
+2025/01/30 20:02:47 DEBUG: Received message from @rekviid (ID:514646676): Просмотр фотографий
+2025/01/30 20:02:47 DEBUG: Received message from @rekviid: Просмотр фотографий
+2025/01/30 20:02:47 INFO: User rekviid is viewing photos
+2025/01/30 20:02:47 INFO: Admin %!s(int64=514646676) Requested filtered photos
+2025/01/30 20:03:22 DEBUG: Received message from @rekviid (ID:514646676): Вернуться в главное меню
+2025/01/30 20:03:22 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/01/30 20:03:22 INFO: User rekviid returned to the main menu
+2025/01/30 20:03:22 DEBUG: Showing role selection for user: rekviid
+2025/01/30 20:03:24 DEBUG: Received message from @rekviid (ID:514646676): Администратор
+2025/01/30 20:03:24 DEBUG: Received message from @rekviid: Администратор
+2025/01/30 20:03:24 INFO: User rekviid selected role: Admin
+2025/01/30 20:03:24 INFO: User rekviid is requesting admin access
+2025/01/30 20:03:31 INFO: User rekviid successfully logged in as admin
+2025/01/30 20:03:31 INFO: Showing admin options to User rekviid
+2025/01/30 20:06:24 DEBUG: Received message from @rekviid (ID:514646676): Просмотр файловой системы
+2025/01/30 20:06:24 DEBUG: Received message from @rekviid: Просмотр файловой системы
+2025/01/30 20:06:24 INFO: User rekviid is viewing the file system
+2025/01/30 20:06:24 INFO: Admin 514646676 requested ListFileSystem
+2025/01/30 20:06:24 DEBUG: Received message from @rekviid (ID:514646676): Просмотр файловой системы
+2025/01/30 20:06:24 DEBUG: Received message from @rekviid: Просмотр файловой системы
+2025/01/30 20:06:24 INFO: User rekviid is viewing the file system
+2025/01/30 20:06:24 INFO: Admin 514646676 requested ListFileSystem
+2025/01/30 20:06:36 DEBUG: Received message from @rekviid (ID:514646676): Вернуться в главное меню
+2025/01/30 20:06:36 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/01/30 20:06:36 INFO: User rekviid returned to the main menu
+2025/01/30 20:06:36 DEBUG: Showing role selection for user: rekviid
+2025/01/30 23:24:23 DEBUG: Received message from @rekviid (ID:514646676): Вернуться в главное меню
+2025/01/30 23:24:23 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/01/30 23:24:23 INFO: User rekviid returned to the main menu
+2025/01/30 23:24:23 DEBUG: Showing role selection for user: rekviid
+2025/01/30 23:24:23 DEBUG: Received message from @rekviid (ID:514646676): Вернуться в главное меню
+2025/01/30 23:24:23 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/01/30 23:24:23 INFO: User rekviid returned to the main menu
+2025/01/30 23:24:23 DEBUG: Showing role selection for user: rekviid
+2025/01/30 23:24:24 DEBUG: Received message from @rekviid (ID:514646676): Администратор
+2025/01/30 23:24:24 DEBUG: Received message from @rekviid: Администратор
+2025/01/30 23:24:24 INFO: User rekviid selected role: Admin
+2025/01/30 23:24:24 INFO: User rekviid is requesting admin access
+2025/01/30 23:24:27 INFO: User rekviid successfully logged in as admin
+2025/01/30 23:24:27 INFO: Showing admin options to User rekviid
+2025/01/30 23:24:29 DEBUG: Received message from @rekviid (ID:514646676): Просмотр файловой системы
+2025/01/30 23:24:29 DEBUG: Received message from @rekviid: Просмотр файловой системы
+2025/01/30 23:24:29 INFO: User rekviid is viewing the file system
+2025/01/30 23:24:29 INFO: Admin 514646676 requested ListFileSystem
+2025/01/30 23:24:32 DEBUG: Received message from @rekviid (ID:514646676): просмотр файла логирования
+2025/01/30 23:24:32 DEBUG: Received message from @rekviid: просмотр файла логирования
+2025/01/30 23:24:32 INFO: User rekviid is viewing the log file
+2025/01/30 23:24:32 INFO: Admin 514646676 requested log file
+2025/01/31 00:31:13 DEBUG: Received message from @rekviid (ID:514646676): Вернуться в главное меню
+2025/01/31 00:31:13 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/01/31 00:31:13 INFO: User rekviid returned to the main menu
+2025/01/31 00:31:13 DEBUG: Showing role selection for user: rekviid
+2025/01/31 00:31:14 DEBUG: Received message from @rekviid (ID:514646676): Работник
+2025/01/31 00:31:14 DEBUG: Received message from @rekviid: Работник
+2025/01/31 00:31:14 INFO: User rekviid selected role: Worker
+2025/01/31 00:31:14 INFO: Worker rekviid started the photo upload process
+2025/01/31 00:31:14 DEBUG: Showing object selection for user: rekviid
+2025/01/31 00:31:16 INFO: User rekviid selected object: Объект 2
+2025/01/31 00:31:16 DEBUG: Showing position selection for user: rekviid
+2025/01/31 00:31:17 INFO: User ID 514646676 selected position: Уборщик
+2025/01/31 00:31:17 DEBUG: Requesting photo from user: rekviid
+2025/01/31 00:31:32 DEBUG: Received message from @rekviid (ID:514646676): 
+2025/01/31 00:31:32 DEBUG: Received message from @rekviid: 
+2025/01/31 00:31:32 INFO: User rekviid sent a photo
+2025/01/31 00:31:32 INFO: Handling photo from user: rekviid
+2025/01/31 00:31:32 INFO: Photo from user rekviid saved; Path: photos/Объект 2/Уборщик/31.01.2025/rekviid.jpg
+2025/01/31 00:31:33 DEBUG: Received message from @rekviid (ID:514646676): Вернуться в главное меню
+2025/01/31 00:31:33 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/01/31 00:31:33 INFO: User rekviid returned to the main menu
+2025/01/31 00:31:33 DEBUG: Showing role selection for user: rekviid
+2025/01/31 00:31:37 DEBUG: Received message from @rekviid (ID:514646676): Работник
+2025/01/31 00:31:37 DEBUG: Received message from @rekviid: Работник
+2025/01/31 00:31:37 INFO: User rekviid selected role: Worker
+2025/01/31 00:31:37 INFO: Worker rekviid started the photo upload process
+2025/01/31 00:31:37 DEBUG: Showing object selection for user: rekviid
+2025/01/31 00:31:38 INFO: User rekviid selected object: Объект 3
+2025/01/31 00:31:38 DEBUG: Showing position selection for user: rekviid
+2025/01/31 00:31:39 INFO: User ID 514646676 selected position: Охранник
+2025/01/31 00:31:39 DEBUG: Requesting photo from user: rekviid
+2025/01/31 00:31:47 DEBUG: Received message from @rekviid (ID:514646676): 
+2025/01/31 00:31:47 DEBUG: Received message from @rekviid: 
+2025/01/31 00:31:47 INFO: User rekviid sent a photo
+2025/01/31 00:31:47 INFO: Handling photo from user: rekviid
+2025/01/31 00:31:48 INFO: Photo from user rekviid saved; Path: photos/Объект 3/Охранник/31.01.2025/rekviid.jpg
+2025/01/31 00:31:48 DEBUG: Received message from @rekviid (ID:514646676): 
+2025/01/31 00:31:48 DEBUG: Received message from @rekviid: 
+2025/01/31 00:31:48 INFO: User rekviid sent a photo
+2025/01/31 00:31:48 INFO: Handling photo from user: rekviid
+2025/01/31 00:31:48 INFO: Photo from user rekviid saved; Path: photos/Объект 3/Охранник/31.01.2025/rekviid(1).jpg
+2025/01/31 00:31:52 DEBUG: Received message from @rekviid (ID:514646676): 
+2025/01/31 00:31:52 DEBUG: Received message from @rekviid: 
+2025/01/31 00:31:52 INFO: User rekviid sent a photo
+2025/01/31 00:31:52 INFO: Handling photo from user: rekviid
+2025/01/31 00:31:53 INFO: Photo from user rekviid saved; Path: photos/Объект 3/Охранник/31.01.2025/rekviid(2).jpg
+2025/01/31 00:32:07 DEBUG: Received message from @rekviid (ID:514646676): 
+2025/01/31 00:32:07 DEBUG: Received message from @rekviid: 
+2025/01/31 00:32:07 INFO: User rekviid sent a photo
+2025/01/31 00:32:07 INFO: Handling photo from user: rekviid
+2025/01/31 00:32:07 INFO: Photo from user rekviid saved; Path: photos/Объект 3/Охранник/31.01.2025/rekviid(3).jpg
+2025/01/31 00:32:07 DEBUG: Received message from @rekviid (ID:514646676): 
+2025/01/31 00:32:07 DEBUG: Received message from @rekviid: 
+2025/01/31 00:32:07 INFO: User rekviid sent a photo
+2025/01/31 00:32:07 INFO: Handling photo from user: rekviid
+2025/01/31 00:32:07 INFO: Photo from user rekviid saved; Path: photos/Объект 3/Охранник/31.01.2025/rekviid(4).jpg
+2025/01/31 00:32:07 DEBUG: Received message from @rekviid (ID:514646676): 
+2025/01/31 00:32:07 DEBUG: Received message from @rekviid: 
+2025/01/31 00:32:07 INFO: User rekviid sent a photo
+2025/01/31 00:32:07 INFO: Handling photo from user: rekviid
+2025/01/31 00:32:08 INFO: Photo from user rekviid saved; Path: photos/Объект 3/Охранник/31.01.2025/rekviid(5).jpg
+2025/01/31 00:32:16 DEBUG: Received message from @rekviid (ID:514646676): Вернуться в главное меню
+2025/01/31 00:32:16 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/01/31 00:32:16 INFO: User rekviid returned to the main menu
+2025/01/31 00:32:16 DEBUG: Showing role selection for user: rekviid
+2025/01/31 00:32:16 DEBUG: Received message from @rekviid (ID:514646676): Администратор
+2025/01/31 00:32:16 DEBUG: Received message from @rekviid: Администратор
+2025/01/31 00:32:16 INFO: User rekviid selected role: Admin
+2025/01/31 00:32:16 INFO: User rekviid is requesting admin access
+2025/01/31 00:32:20 INFO: User rekviid successfully logged in as admin
+2025/01/31 00:32:20 INFO: Showing admin options to User rekviid
+2025/01/31 00:32:22 DEBUG: Received message from @rekviid (ID:514646676): Просмотр фотографий
+2025/01/31 00:32:22 DEBUG: Received message from @rekviid: Просмотр фотографий
+2025/01/31 00:32:22 INFO: User rekviid is viewing photos
+2025/01/31 00:32:22 INFO: Admin %!s(int64=514646676) Requested filtered photos
+2025/01/31 00:32:49 DEBUG: Received message from @rekviid (ID:514646676): Вернуться в главное меню
+2025/01/31 00:32:49 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/01/31 00:32:49 INFO: User rekviid returned to the main menu
+2025/01/31 00:32:49 DEBUG: Showing role selection for user: rekviid
+2025/01/31 00:32:50 DEBUG: Received message from @rekviid (ID:514646676): Администратор
+2025/01/31 00:32:50 DEBUG: Received message from @rekviid: Администратор
+2025/01/31 00:32:50 INFO: User rekviid selected role: Admin
+2025/01/31 00:32:50 INFO: User rekviid is requesting admin access
+2025/01/31 00:32:53 INFO: User rekviid successfully logged in as admin
+2025/01/31 00:32:53 INFO: Showing admin options to User rekviid
+2025/01/31 00:33:14 DEBUG: Received message from @rekviid (ID:514646676): Просмотр файловой системы
+2025/01/31 00:33:14 DEBUG: Received message from @rekviid: Просмотр файловой системы
+2025/01/31 00:33:14 INFO: User rekviid is viewing the file system
+2025/01/31 00:33:14 INFO: Admin 514646676 requested ListFileSystem
+2025/01/31 00:34:42 DEBUG: Received message from @rekviid (ID:514646676): Вернуться в главное меню
+2025/01/31 00:34:42 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/01/31 00:34:42 INFO: User rekviid returned to the main menu
+2025/01/31 00:34:42 DEBUG: Showing role selection for user: rekviid
+2025/01/31 00:34:43 DEBUG: Received message from @rekviid (ID:514646676): Администратор
+2025/01/31 00:34:43 DEBUG: Received message from @rekviid: Администратор
+2025/01/31 00:34:43 INFO: User rekviid selected role: Admin
+2025/01/31 00:34:43 INFO: User rekviid is requesting admin access
+2025/01/31 00:34:47 INFO: User rekviid successfully logged in as admin
+2025/01/31 00:34:47 INFO: Showing admin options to User rekviid
+2025/01/31 00:35:00 DEBUG: Received message from @rekviid (ID:514646676): просмотр файла логирования
+2025/01/31 00:35:00 DEBUG: Received message from @rekviid: просмотр файла логирования
+2025/01/31 00:35:00 INFO: User rekviid is viewing the log file
+2025/01/31 00:35:00 INFO: Admin 514646676 requested log file
+2025/01/31 02:45:09 DEBUG: Received message from @rekviid (ID:514646676): Вернуться в главное меню
+2025/01/31 02:45:09 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/01/31 02:45:09 INFO: User rekviid returned to the main menu
+2025/01/31 02:45:09 DEBUG: Showing role selection for user: rekviid
+2025/01/31 02:45:10 DEBUG: Received message from @rekviid (ID:514646676): Работник
+2025/01/31 02:45:10 DEBUG: Received message from @rekviid: Работник
+2025/01/31 02:45:10 INFO: User rekviid selected role: Worker
+2025/01/31 02:45:10 INFO: Worker rekviid started the photo upload process
+2025/01/31 02:45:10 DEBUG: Showing object selection for user: rekviid
+2025/01/31 02:45:12 INFO: User rekviid selected object: Объект 1
+2025/01/31 02:45:12 DEBUG: Showing position selection for user: rekviid
+2025/01/31 02:45:13 INFO: User ID 514646676 selected position: Уборщик
+2025/01/31 02:45:13 DEBUG: Requesting photo from user: rekviid
+2025/01/31 02:45:17 DEBUG: Received message from @rekviid (ID:514646676): 
+2025/01/31 02:45:17 DEBUG: Received message from @rekviid: 
+2025/01/31 02:45:17 INFO: User rekviid sent a photo
+2025/01/31 02:45:17 INFO: Handling photo from user: rekviid
+2025/01/31 02:45:17 INFO: Photo from user rekviid saved; Path: photos/Объект 1/Уборщик/31.01.2025/rekviid.jpg
+2025/01/31 02:45:19 DEBUG: Received message from @rekviid (ID:514646676): Вернуться в главное меню
+2025/01/31 02:45:19 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/01/31 02:45:19 INFO: User rekviid returned to the main menu
+2025/01/31 02:45:19 DEBUG: Showing role selection for user: rekviid
+2025/01/31 02:45:21 DEBUG: Received message from @rekviid (ID:514646676): Администратор
+2025/01/31 02:45:21 DEBUG: Received message from @rekviid: Администратор
+2025/01/31 02:45:21 INFO: User rekviid selected role: Admin
+2025/01/31 02:45:21 INFO: User rekviid is requesting admin access
+2025/01/31 02:45:26 INFO: User rekviid successfully logged in as admin
+2025/01/31 02:45:26 INFO: Showing admin options to User rekviid
+2025/01/31 02:46:45 DEBUG: Received message from @rekviid (ID:514646676): Просмотр файловой системы
+2025/01/31 02:46:45 DEBUG: Received message from @rekviid: Просмотр файловой системы
+2025/01/31 02:46:45 INFO: User rekviid is viewing the file system
+2025/01/31 02:46:45 INFO: Admin 514646676 requested ListFileSystem
+2025/01/31 02:46:47 DEBUG: Received message from @rekviid (ID:514646676): просмотр файла логирования
+2025/01/31 02:46:47 DEBUG: Received message from @rekviid: просмотр файла логирования
+2025/01/31 02:46:47 INFO: User rekviid is viewing the log file
+2025/01/31 02:46:47 INFO: Admin 514646676 requested log file
+2025/02/02 17:20:24 Logger Created
+2025/02/02 17:20:24 INFO: Config loaded successfully.
+2025/02/02 17:20:25 INFO: Authorized as Task_Img_Tracker_bot
+2025/02/02 17:20:25 INFO: Starting updates processing...
+2025/02/02 17:20:25 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/02 17:20:25 INFO: User rekviid returned to the main menu
+2025/02/02 17:20:25 DEBUG: Showing role selection for user: rekviid
+2025/02/02 17:20:37 Logger Created
+2025/02/02 17:20:37 INFO: Config loaded successfully.
+2025/02/02 17:20:37 INFO: Authorized as Task_Img_Tracker_bot
+2025/02/02 17:20:37 INFO: Starting updates processing...
+2025/02/02 17:20:44 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/02 17:20:44 INFO: User rekviid returned to the main menu
+2025/02/02 17:20:44 DEBUG: Showing role selection for user: rekviid
+2025/02/02 17:20:44 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/02 17:20:44 INFO: User rekviid returned to the main menu
+2025/02/02 17:20:44 DEBUG: Showing role selection for user: rekviid
+2025/02/02 17:20:54 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/02 17:20:54 INFO: User rekviid returned to the main menu
+2025/02/02 17:20:54 DEBUG: Showing role selection for user: rekviid
+2025/02/02 17:21:03 DEBUG: Received message from @rekviid: Работник
+2025/02/02 17:21:03 INFO: User rekviid selected role: Worker
+2025/02/02 17:21:03 INFO: Worker rekviid started the photo upload process
+2025/02/02 17:21:03 DEBUG: Showing object selection for user: rekviid
+2025/02/02 17:21:19 INFO: User rekviid selected object: Объект 3
+2025/02/02 17:21:19 DEBUG: Showing position selection for user: rekviid
+2025/02/02 17:21:20 INFO: User ID 514646676 selected position: Уборщик
+2025/02/02 17:21:20 DEBUG: Requesting photo from user: rekviid
+2025/02/02 17:21:30 DEBUG: Received message from @rekviid: 
+2025/02/02 17:21:30 INFO: User rekviid sent a photo
+2025/02/02 17:21:30 INFO: Handling photo from user: rekviid
+2025/02/02 17:21:30 INFO: Photo from user rekviid saved; Path: photos/Объект 3/Уборщик/02.02.2025/rekviid.jpg
+2025/02/02 17:21:33 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/02 17:21:33 INFO: User rekviid returned to the main menu
+2025/02/02 17:21:33 DEBUG: Showing role selection for user: rekviid
+2025/02/02 17:21:34 DEBUG: Received message from @rekviid: Администратор
+2025/02/02 17:21:34 INFO: User rekviid selected role: Admin
+2025/02/02 17:21:34 INFO: User rekviid is requesting admin access
+2025/02/02 17:21:37 WARNING: User rekviid entered incorrect admin key: 1234
+2025/02/02 17:21:43 WARNING: User rekviid entered incorrect admin key: 1566
+2025/02/02 17:21:45 INFO: User rekviid returned to the main menu from admin key request
+2025/02/02 17:21:46 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/02 17:21:46 INFO: User rekviid returned to the main menu
+2025/02/02 17:21:46 DEBUG: Showing role selection for user: rekviid
+2025/02/02 17:21:53 DEBUG: Received message from @rekviid: Администратор
+2025/02/02 17:21:53 INFO: User rekviid selected role: Admin
+2025/02/02 17:21:53 INFO: User rekviid is requesting admin access
+2025/02/02 17:21:56 INFO: User rekviid successfully logged in as admin
+2025/02/02 17:21:56 INFO: Showing admin options to User rekviid
+2025/02/02 17:22:03 DEBUG: Received message from @rekviid: Просмотр файловой системы
+2025/02/02 17:22:03 INFO: User rekviid is viewing the file system
+2025/02/02 17:22:03 INFO: Admin 514646676 requested ListFileSystem
+2025/02/02 17:22:13 DEBUG: Received message from @rekviid: просмотр файла логирования
+2025/02/02 17:22:13 INFO: User rekviid is viewing the log file
+2025/02/02 17:22:13 INFO: Admin 514646676 requested log file
+2025/02/02 17:23:51 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/02 17:23:51 INFO: User rekviid returned to the main menu
+2025/02/02 17:23:51 DEBUG: Showing role selection for user: rekviid
+2025/02/02 17:24:05 DEBUG: Received message from @rekviid: Администратор
+2025/02/02 17:24:05 INFO: User rekviid selected role: Admin
+2025/02/02 17:24:05 INFO: User rekviid is requesting admin access
+2025/02/02 17:24:11 INFO: User rekviid successfully logged in as admin
+2025/02/02 17:24:11 INFO: Showing admin options to User rekviid
+2025/02/02 17:24:22 DEBUG: Received message from @rekviid: Добавить объект
+2025/02/02 17:24:22 INFO: User rekviid is adding an object
+2025/02/02 17:24:22 INFO: Admin rekviid requested to add an object
+2025/02/02 17:24:37 INfO: Admin rekviid added new object: Дом
+2025/02/02 17:24:41 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/02 17:24:41 INFO: User rekviid returned to the main menu
+2025/02/02 17:24:41 DEBUG: Showing role selection for user: rekviid
+2025/02/02 17:24:42 DEBUG: Received message from @rekviid: Работник
+2025/02/02 17:24:42 INFO: User rekviid selected role: Worker
+2025/02/02 17:24:42 INFO: Worker rekviid started the photo upload process
+2025/02/02 17:24:42 DEBUG: Showing object selection for user: rekviid
+2025/02/02 17:24:44 INFO: User rekviid selected object: Дом
+2025/02/02 17:24:44 DEBUG: Showing position selection for user: rekviid
+2025/02/02 17:24:45 INFO: User ID 514646676 selected position: Уборщик
+2025/02/02 17:24:45 DEBUG: Requesting photo from user: rekviid
+2025/02/02 17:25:04 DEBUG: Received message from @rekviid: 
+2025/02/02 17:25:04 INFO: User rekviid sent a photo
+2025/02/02 17:25:04 INFO: Handling photo from user: rekviid
+2025/02/02 17:25:04 INFO: Photo from user rekviid saved; Path: photos/Дом/Уборщик/02.02.2025/rekviid.jpg
+2025/02/02 17:25:07 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/02 17:25:07 INFO: User rekviid returned to the main menu
+2025/02/02 17:25:07 DEBUG: Showing role selection for user: rekviid
+2025/02/02 17:25:07 DEBUG: Received message from @rekviid: Администратор
+2025/02/02 17:25:07 INFO: User rekviid selected role: Admin
+2025/02/02 17:25:07 INFO: User rekviid is requesting admin access
+2025/02/02 17:25:10 WARNING: User rekviid entered incorrect admin key: 122
+2025/02/02 17:25:22 INFO: User rekviid successfully logged in as admin
+2025/02/02 17:25:22 INFO: Showing admin options to User rekviid
+2025/02/02 17:25:38 DEBUG: Received message from @rekviid: Просмотр фотографий
+2025/02/02 17:25:38 INFO: User rekviid is viewing photos
+2025/02/02 17:25:38 INFO: Admin %!s(int64=514646676) Requested filtered photos
+2025/02/02 17:27:28 DEBUG: Received message from @rekviid: Лулу
+2025/02/02 17:27:28 WARNING: Unknown command from user rekviid: Лулу
+2025/02/02 17:27:32 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/02 17:27:32 INFO: User rekviid returned to the main menu
+2025/02/02 17:27:32 DEBUG: Showing role selection for user: rekviid
+2025/02/02 17:28:22 Logger Created
+2025/02/02 17:28:22 INFO: Config loaded successfully.
+2025/02/02 17:28:23 INFO: Authorized as Task_Img_Tracker_bot
+2025/02/02 17:28:23 INFO: Starting updates processing...
+2025/02/02 17:28:33 DEBUG: Received message from @rekviid: Р
+2025/02/02 17:28:33 WARNING: Unknown command from user rekviid: Р
+2025/02/02 17:28:35 DEBUG: Received message from @rekviid: /start
+2025/02/02 17:28:35 INFO: User rekviid started the bot
+2025/02/02 17:28:35 DEBUG: Showing role selection for user: rekviid
+2025/02/02 17:30:04 Logger Created
+2025/02/02 17:30:04 INFO: Config loaded successfully.
+2025/02/02 17:30:05 INFO: Authorized as Task_Img_Tracker_bot
+2025/02/02 17:30:05 INFO: Starting updates processing...
+2025/02/02 17:30:31 DEBUG: Received message from @rekviid: /start
+2025/02/02 17:30:31 INFO: User rekviid started the bot
+2025/02/02 17:30:31 DEBUG: Showing role selection for user: rekviid
+2025/02/02 17:31:06 DEBUG: Received message from @rekviid: Работник
+2025/02/02 17:31:06 INFO: User rekviid selected role: Worker
+2025/02/02 17:31:06 INFO: Worker rekviid started the photo upload process
+2025/02/02 17:31:06 DEBUG: Showing object selection for user: rekviid
+2025/02/02 17:31:08 INFO: User rekviid selected object: Дом
+2025/02/02 17:31:08 DEBUG: Showing position selection for user: rekviid
+2025/02/02 17:31:09 INFO: User ID 514646676 selected position: Уборщик
+2025/02/02 17:31:09 DEBUG: Requesting photo from user: rekviid
+2025/02/02 17:31:10 DEBUG: Received message from @rekviid: Охранник
+2025/02/02 17:31:10 WARNING: Unknown command from user rekviid: Охранник
+2025/02/02 17:31:14 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/02 17:31:14 INFO: User rekviid returned to the main menu
+2025/02/02 17:31:14 DEBUG: Showing role selection for user: rekviid
+2025/02/02 17:31:17 DEBUG: Received message from @rekviid: Работник
+2025/02/02 17:31:17 INFO: User rekviid selected role: Worker
+2025/02/02 17:31:17 INFO: Worker rekviid started the photo upload process
+2025/02/02 17:31:17 DEBUG: Showing object selection for user: rekviid
+2025/02/02 17:31:18 INFO: User rekviid selected object: Дом
+2025/02/02 17:31:18 DEBUG: Showing position selection for user: rekviid
+2025/02/02 17:31:30 INFO: User ID 514646676 selected position: Охранник
+2025/02/02 17:31:30 DEBUG: Requesting photo from user: rekviid
+2025/02/02 17:31:37 DEBUG: Received message from @rekviid: 
+2025/02/02 17:31:37 INFO: User rekviid sent a photo
+2025/02/02 17:31:37 INFO: Handling photo from user: rekviid
+2025/02/02 17:31:38 INFO: Photo from user rekviid saved; Path: photos/Дом/Охранник/02.02.2025/rekviid.jpg
+2025/02/02 17:31:39 DEBUG: Received message from @rekviid: 
+2025/02/02 17:31:39 INFO: User rekviid sent a photo
+2025/02/02 17:31:39 INFO: Handling photo from user: rekviid
+2025/02/02 17:31:40 INFO: Photo from user rekviid saved; Path: photos/Дом/Охранник/02.02.2025/rekviid(1).jpg
+2025/02/02 17:31:45 DEBUG: Received message from @rekviid: 
+2025/02/02 17:31:45 INFO: User rekviid sent a photo
+2025/02/02 17:31:45 INFO: Handling photo from user: rekviid
+2025/02/02 17:31:49 INFO: Photo from user rekviid saved; Path: photos/Дом/Охранник/02.02.2025/rekviid(2).jpg
+2025/02/02 17:31:50 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/02 17:31:50 INFO: User rekviid returned to the main menu
+2025/02/02 17:31:50 DEBUG: Showing role selection for user: rekviid
+2025/02/02 17:31:52 DEBUG: Received message from @rekviid: Администратор
+2025/02/02 17:31:52 INFO: User rekviid selected role: Admin
+2025/02/02 17:31:52 INFO: User rekviid is requesting admin access
+2025/02/02 17:31:56 INFO: User rekviid successfully logged in as admin
+2025/02/02 17:31:57 INFO: Showing admin options to User rekviid
+2025/02/02 17:32:15 DEBUG: Received message from @rekviid: Просмотр файловой системы
+2025/02/02 17:32:15 INFO: User rekviid is viewing the file system
+2025/02/02 17:32:15 INFO: Admin 514646676 requested ListFileSystem
+2025/02/02 17:33:35 DEBUG: Received message from @rekviid: Просмотр фотографий
+2025/02/02 17:33:35 INFO: User rekviid is viewing photos
+2025/02/02 17:36:12 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/02 17:36:12 INFO: User rekviid returned to the main menu
+2025/02/02 17:36:12 DEBUG: Showing role selection for user: rekviid
+2025/02/03 11:27:04 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/03 11:27:04 INFO: User rekviid returned to the main menu
+2025/02/03 11:27:04 DEBUG: Showing role selection for user: rekviid
+2025/02/03 17:43:55 Logger Created
+2025/02/03 17:43:55 INFO: Config loaded successfully.
+2025/02/03 17:43:55 INFO: Authorized as Task_Img_Tracker_bot
+2025/02/03 17:43:55 INFO: Starting updates processing...
+2025/02/03 17:44:08 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/03 17:44:08 INFO: User rekviid returned to the main menu
+2025/02/03 17:44:08 DEBUG: Showing role selection for user: rekviid
+2025/02/03 17:44:10 DEBUG: Received message from @rekviid: Работник
+2025/02/03 17:44:10 INFO: User rekviid selected role: Worker
+2025/02/03 17:44:10 INFO: Worker rekviid started the photo upload process
+2025/02/03 17:44:10 DEBUG: Showing object selection for user: rekviid
+2025/02/03 17:44:12 INFO: User rekviid selected object: Дом
+2025/02/03 17:44:12 DEBUG: Showing position selection for user: rekviid
+2025/02/03 17:44:13 INFO: User ID 514646676 selected position: Уборщик
+2025/02/03 17:44:13 DEBUG: Requesting photo from user: rekviid
+2025/02/03 17:44:17 DEBUG: Received message from @rekviid: 
+2025/02/03 17:44:17 INFO: User rekviid sent a photo
+2025/02/03 17:44:17 INFO: Handling photo from user: rekviid
+2025/02/03 17:44:18 INFO: Photo from user rekviid saved; Path: photos/Дом/Уборщик/03.02.2025/rekviid.jpg
+2025/02/03 17:44:22 DEBUG: Received message from @rekviid: Охранник
+2025/02/03 17:44:22 WARNING: Unknown command from user rekviid: Охранник
+2025/02/03 17:44:24 DEBUG: Received message from @rekviid: /start
+2025/02/03 17:44:24 INFO: User rekviid started the bot
+2025/02/03 17:44:24 DEBUG: Showing role selection for user: rekviid
+2025/02/03 17:44:25 DEBUG: Received message from @rekviid: Работник
+2025/02/03 17:44:25 INFO: User rekviid selected role: Worker
+2025/02/03 17:44:25 INFO: Worker rekviid started the photo upload process
+2025/02/03 17:44:25 DEBUG: Showing object selection for user: rekviid
+2025/02/03 17:44:26 INFO: User rekviid selected object: Объект 3
+2025/02/03 17:44:26 DEBUG: Showing position selection for user: rekviid
+2025/02/03 17:44:27 INFO: User ID 514646676 selected position: Уборщик
+2025/02/03 17:44:27 DEBUG: Requesting photo from user: rekviid
+2025/02/03 17:44:29 DEBUG: Received message from @rekviid: 
+2025/02/03 17:44:29 INFO: User rekviid sent a photo
+2025/02/03 17:44:29 INFO: Handling photo from user: rekviid
+2025/02/03 17:44:30 INFO: Photo from user rekviid saved; Path: photos/Объект 3/Уборщик/03.02.2025/rekviid.jpg
+2025/02/03 17:45:06 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/03 17:45:06 INFO: User rekviid returned to the main menu
+2025/02/03 17:45:06 DEBUG: Showing role selection for user: rekviid
+2025/02/03 17:45:07 DEBUG: Received message from @rekviid: Администратор
+2025/02/03 17:45:07 INFO: User rekviid selected role: Admin
+2025/02/03 17:45:07 INFO: User rekviid is requesting admin access
+2025/02/03 17:45:12 INFO: User rekviid successfully logged in as admin
+2025/02/03 17:45:12 INFO: Showing admin options to User rekviid
+2025/02/03 17:45:14 DEBUG: Received message from @rekviid: Просмотр файловой системы
+2025/02/03 17:45:14 INFO: User rekviid is viewing the file system
+2025/02/03 17:46:12 DEBUG: Received message from @rekviid: Просмотр фотографий
+2025/02/03 17:46:12 INFO: User rekviid is viewing photos
+2025/02/03 17:49:16 Logger Created
+2025/02/03 17:49:16 INFO: Config loaded successfully.
+2025/02/03 17:49:17 INFO: Authorized as Task_Img_Tracker_bot
+2025/02/03 17:49:17 INFO: Starting updates processing...
+2025/02/03 17:49:22 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/03 17:49:22 INFO: User rekviid returned to the main menu
+2025/02/03 17:49:22 DEBUG: Showing role selection for user: rekviid
+2025/02/03 17:49:23 DEBUG: Received message from @rekviid: Работник
+2025/02/03 17:49:23 INFO: User rekviid selected role: Worker
+2025/02/03 17:49:23 INFO: Worker rekviid started the photo upload process
+2025/02/03 17:49:23 DEBUG: Showing object selection for user: rekviid
+2025/02/03 17:49:24 INFO: User rekviid selected object: Объект 3
+2025/02/03 17:49:24 DEBUG: Showing position selection for user: rekviid
+2025/02/03 17:49:25 INFO: User ID 514646676 selected position: Охранник
+2025/02/03 17:49:25 DEBUG: Requesting photo from user: rekviid
+2025/02/03 17:49:28 DEBUG: Received message from @rekviid: 
+2025/02/03 17:49:28 INFO: User rekviid sent a photo
+2025/02/03 17:49:28 INFO: Handling photo from user: rekviid
+2025/02/03 17:49:28 INFO: Photo from user rekviid saved; Path: photos/Объект 3/Охранник/03.02.2025/rekviid.jpg
+2025/02/03 17:55:19 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/03 17:55:19 INFO: User rekviid returned to the main menu
+2025/02/03 17:55:19 DEBUG: Showing role selection for user: rekviid
+2025/02/03 17:55:22 DEBUG: Received message from @rekviid: Работник
+2025/02/03 17:55:22 INFO: User rekviid selected role: Worker
+2025/02/03 17:55:22 INFO: Worker rekviid started the photo upload process
+2025/02/03 17:55:22 DEBUG: Showing object selection for user: rekviid
+2025/02/03 17:55:24 INFO: User rekviid selected object: Объект 1
+2025/02/03 17:55:24 DEBUG: Showing position selection for user: rekviid
+2025/02/03 17:55:25 INFO: User ID 514646676 selected position: Охранник
+2025/02/03 17:55:25 DEBUG: Requesting photo from user: rekviid
+2025/02/03 17:55:33 DEBUG: Received message from @rekviid: 
+2025/02/03 17:55:33 INFO: User rekviid sent a photo
+2025/02/03 17:55:33 INFO: Handling photo from user: rekviid
+2025/02/03 17:55:33 INFO: Photo from user rekviid saved; Path: photos/Объект 1/Охранник/03.02.2025/rekviid.jpg
+2025/02/03 17:57:13 Logger Created
+2025/02/03 17:57:13 INFO: Config loaded successfully.
+2025/02/03 17:57:13 INFO: Authorized as Task_Img_Tracker_bot
+2025/02/03 17:57:13 INFO: Starting updates processing...
+2025/02/03 17:57:15 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/03 17:57:15 INFO: User rekviid returned to the main menu
+2025/02/03 17:57:15 DEBUG: Showing role selection for user: rekviid
+2025/02/03 17:57:15 DEBUG: Received message from @rekviid: Работник
+2025/02/03 17:57:15 INFO: User rekviid selected role: Worker
+2025/02/03 17:57:15 INFO: Worker rekviid started the photo upload process
+2025/02/03 17:57:15 DEBUG: Showing object selection for user: rekviid
+2025/02/03 17:57:16 INFO: User rekviid selected object: Объект 1
+2025/02/03 17:57:16 DEBUG: Showing position selection for user: rekviid
+2025/02/03 17:57:17 INFO: User ID 514646676 selected position: Охранник
+2025/02/03 17:57:17 DEBUG: Requesting photo from user: rekviid
+2025/02/03 17:57:20 DEBUG: Received message from @rekviid: 
+2025/02/03 17:57:20 INFO: User rekviid sent a photo
+2025/02/03 17:57:20 INFO: Handling photo from user: rekviid
+2025/02/03 17:57:20 INFO: Photo from user rekviid saved; Path: photos/Охранник/Объект 1/03.02.2025/rekviid.jpg
+2025/02/03 17:57:29 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/03 17:57:29 INFO: User rekviid returned to the main menu
+2025/02/03 17:57:29 DEBUG: Showing role selection for user: rekviid
+2025/02/03 17:57:30 DEBUG: Received message from @rekviid: Администратор
+2025/02/03 17:57:30 INFO: User rekviid selected role: Admin
+2025/02/03 17:57:30 INFO: User rekviid is requesting admin access
+2025/02/03 17:57:33 INFO: User rekviid successfully logged in as admin
+2025/02/03 17:57:33 INFO: Showing admin options to User rekviid
+2025/02/03 17:57:35 DEBUG: Received message from @rekviid: Просмотр фотографий
+2025/02/03 17:57:35 INFO: User rekviid is viewing photos
+2025/02/03 17:59:29 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/03 17:59:29 INFO: User rekviid returned to the main menu
+2025/02/03 17:59:29 DEBUG: Showing role selection for user: rekviid
+2025/02/03 17:59:31 DEBUG: Received message from @rekviid: Администратор
+2025/02/03 17:59:31 INFO: User rekviid selected role: Admin
+2025/02/03 17:59:31 INFO: User rekviid is requesting admin access
+2025/02/03 17:59:36 INFO: User rekviid successfully logged in as admin
+2025/02/03 17:59:37 INFO: Showing admin options to User rekviid
+2025/02/03 17:59:38 DEBUG: Received message from @rekviid: Просмотр файловой системы
+2025/02/03 17:59:38 INFO: User rekviid is viewing the file system
+2025/02/03 18:00:24 Logger Created
+2025/02/03 18:00:24 INFO: Config loaded successfully.
+2025/02/03 18:00:25 INFO: Authorized as Task_Img_Tracker_bot
+2025/02/03 18:00:25 INFO: Starting updates processing...
+2025/02/03 18:00:28 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/03 18:00:28 INFO: User rekviid returned to the main menu
+2025/02/03 18:00:28 DEBUG: Showing role selection for user: rekviid
+2025/02/03 18:00:29 DEBUG: Received message from @rekviid: Работник
+2025/02/03 18:00:29 INFO: User rekviid selected role: Worker
+2025/02/03 18:00:29 INFO: Worker rekviid started the photo upload process
+2025/02/03 18:00:29 DEBUG: Showing object selection for user: rekviid
+2025/02/03 18:00:30 INFO: User rekviid selected object: Объект 1
+2025/02/03 18:00:30 DEBUG: Showing position selection for user: rekviid
+2025/02/03 18:00:31 INFO: User ID 514646676 selected position: Охранник
+2025/02/03 18:00:31 DEBUG: Requesting photo from user: rekviid
+2025/02/03 18:00:34 DEBUG: Received message from @rekviid: 
+2025/02/03 18:00:34 INFO: User rekviid sent a photo
+2025/02/03 18:00:34 INFO: Handling photo from user: rekviid
+2025/02/03 18:00:34 INFO: Photo from user rekviid saved; Path: photos/Охранник/Объект 1/03.02.2025/rekviid.jpg
+2025/02/03 18:00:37 DEBUG: Received message from @rekviid: Уборщик
+2025/02/03 18:00:37 WARNING: Unknown command from user rekviid: Уборщик
+2025/02/03 18:00:38 DEBUG: Received message from @rekviid: /start
+2025/02/03 18:00:38 INFO: User rekviid started the bot
+2025/02/03 18:00:38 DEBUG: Showing role selection for user: rekviid
+2025/02/03 18:00:39 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/03 18:00:39 INFO: User rekviid returned to the main menu
+2025/02/03 18:00:39 DEBUG: Showing role selection for user: rekviid
+2025/02/03 18:00:40 DEBUG: Received message from @rekviid: Работник
+2025/02/03 18:00:40 INFO: User rekviid selected role: Worker
+2025/02/03 18:00:40 INFO: Worker rekviid started the photo upload process
+2025/02/03 18:00:40 DEBUG: Showing object selection for user: rekviid
+2025/02/03 18:00:42 INFO: User rekviid selected object: Дом
+2025/02/03 18:00:42 DEBUG: Showing position selection for user: rekviid
+2025/02/03 18:00:43 INFO: User ID 514646676 selected position: Охранник
+2025/02/03 18:00:43 DEBUG: Requesting photo from user: rekviid
+2025/02/03 18:00:46 DEBUG: Received message from @rekviid: 
+2025/02/03 18:00:46 INFO: User rekviid sent a photo
+2025/02/03 18:00:46 INFO: Handling photo from user: rekviid
+2025/02/03 18:00:46 INFO: Photo from user rekviid saved; Path: photos/Охранник/Дом/03.02.2025/rekviid.jpg
+2025/02/03 18:00:47 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/03 18:00:47 INFO: User rekviid returned to the main menu
+2025/02/03 18:00:47 DEBUG: Showing role selection for user: rekviid
+2025/02/03 18:00:48 DEBUG: Received message from @rekviid: Администратор
+2025/02/03 18:00:48 INFO: User rekviid selected role: Admin
+2025/02/03 18:00:48 INFO: User rekviid is requesting admin access
+2025/02/03 18:00:50 INFO: User rekviid successfully logged in as admin
+2025/02/03 18:00:51 INFO: Showing admin options to User rekviid
+2025/02/03 18:00:53 DEBUG: Received message from @rekviid: Просмотр файловой системы
+2025/02/03 18:00:53 INFO: User rekviid is viewing the file system
+2025/02/03 18:01:16 DEBUG: Received message from @rekviid: Просмотр фотографий
+2025/02/03 18:01:16 INFO: User rekviid is viewing photos
+2025/02/03 18:02:50 Logger Created
+2025/02/03 18:02:50 INFO: Config loaded successfully.
+2025/02/03 18:02:50 INFO: Authorized as Task_Img_Tracker_bot
+2025/02/03 18:02:50 INFO: Starting updates processing...
+2025/02/03 18:02:58 DEBUG: Received message from @rekviid: 03.02.2025
+2025/02/03 18:02:58 WARNING: Unknown command from user rekviid: 03.02.2025
+2025/02/03 18:03:00 DEBUG: Received message from @rekviid: /start
+2025/02/03 18:03:00 INFO: User rekviid started the bot
+2025/02/03 18:03:00 DEBUG: Showing role selection for user: rekviid
+2025/02/03 18:03:02 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/03 18:03:02 INFO: User rekviid returned to the main menu
+2025/02/03 18:03:02 DEBUG: Showing role selection for user: rekviid
+2025/02/03 18:03:04 DEBUG: Received message from @rekviid: Администратор
+2025/02/03 18:03:04 INFO: User rekviid selected role: Admin
+2025/02/03 18:03:04 INFO: User rekviid is requesting admin access
+2025/02/03 18:03:06 INFO: User rekviid successfully logged in as admin
+2025/02/03 18:03:07 INFO: Showing admin options to User rekviid
+2025/02/03 18:03:15 DEBUG: Received message from @rekviid: Просмотр фотографий
+2025/02/03 18:03:15 INFO: User rekviid is viewing photos
+2025/02/03 18:03:32 DEBUG: Received message from @rekviid: Объект 3
+2025/02/03 18:03:32 WARNING: Unknown command from user rekviid: Объект 3
+2025/02/03 18:03:33 DEBUG: Received message from @rekviid: /start
+2025/02/03 18:03:33 INFO: User rekviid started the bot
+2025/02/03 18:03:33 DEBUG: Showing role selection for user: rekviid
+2025/02/03 18:03:34 DEBUG: Received message from @rekviid: Вернуться в главное меню
+2025/02/03 18:03:34 INFO: User rekviid returned to the main menu
+2025/02/03 18:03:34 DEBUG: Showing role selection for user: rekviid

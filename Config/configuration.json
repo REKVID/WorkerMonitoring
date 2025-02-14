@@ -1,0 +1,15 @@
+{
+  "positions": [
+    "Охранник",
+    "Уборщик"
+  ],
+  "objects": [
+    "Объект 1",
+    "Объект 2",
+    "Объект 3"
+  ],
+  "bot_token": "8103610286:AAHJe2hgkZG_gx2Mpf3L3fx57b2utGP36JQ",
+  "admin_key": "123",
+  "base_dir": "/Users/vladbelousov/GolandProjects/TgTaskBot/photos",
+  "log_path": "./app.log"
+}
