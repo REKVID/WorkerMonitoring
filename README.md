@@ -1,4 +1,4 @@
-Вот подробный README.md файл для вашего проекта:
+
 
 ```markdown
 # TgTaskBot - Telegram Bot для управления фотоотчетами
