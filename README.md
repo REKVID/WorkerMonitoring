@@ -1,5 +1,6 @@
 
 # TaskBot - Telegram Bot for Managing Photo Reports
+### ⚠️ open test version of commercial project
 
 ## 📝 Description
 TgTaskBot is a Telegram bot designed to automate the process of collecting and managing photo reports. 
