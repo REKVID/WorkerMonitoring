@@ -1,169 +1,164 @@
 
+# TaskBot - Telegram Bot for Managing Photo Reports
 
+## 📝 Description
+TgTaskBot is a Telegram bot designed to automate the process of collecting and managing photo reports. 
+The bot allows workers to send photos from job sites, and administrators to manage and view received reports.
 
-# TgTaskBot - Telegram Bot для управления фотоотчетами
+## 🚀 Key Features
 
-## 📝 Описание
-TgTaskBot - это Telegram бот, разработанный для автоматизации процесса 
-сбора и управления фотоотчетами.
-Бот позволяет работникам отправлять фотографии с объектов, 
-а администраторам - управлять и просматривать полученные отчеты.
+### 👷 For Workers:
+- Selection of work site
+- Specifying job position
+- Sending photo reports
+- Automatic saving of photos with metadata
 
-## 🚀 Основные возможности
+### 👨‍💼 For Administrators:
+- Viewing all uploaded photos
+- Filtering photos by date/site/position
+- Managing the list of sites and positions
+- Viewing the file system
+- Access to system logs
 
-### 👷 Для работников:
-- Выбор объекта работы
-- Указание должности
-- Отправка фотоотчетов
-- Автоматическое сохранение фото с метаданными
-
-### 👨‍💼 Для администраторов:
-- Просмотр всех загруженных фотографий
-- Фильтрация фото по дате/объекту/должности
-- Управление списком объектов и должностей
-- Просмотр файловой системы
-- Доступ к логам системы
-
-## 🛠 Технические требования
+## 🛠 Technical Requirements
 
 - Windows/Linux/MacOS
-- Go 1.16 или выше
-- Доступ к Telegram Bot API
-- Права на создание файлов и папок
+- Go 1.16 or higher
+- Access to Telegram Bot API
+- Permissions to create files and folders
 
-## 📂 Структура проекта
+## 📂 Project Structure
 
-``` bash
+```bash
 TgTaskBot/
-├── main.go                 # Точка входа в приложение
-├── configuration.json      # Файл конфигурации
-├── Config/                 # Пакет конфигурации
+├── main.go                 # Application entry point
+├── configuration.json      # Configuration file
+├── Config/                 # Configuration package
 │   └── config.go
-├── internal/              # Внутренняя логика
-│   ├── admin/            # Функционал администратора
-│   ├── bot/              # Основная логика бота
-│   └── worker/           # Функционал работника
-├── pkg/                  # Общие пакеты
-│   ├── handlers/         # Обработчики
-│   └── logger/           # Логирование
+├── internal/               # Internal logic
+│   ├── admin/              # Admin functionality
+│   ├── bot/                # Core bot logic
+│   └── worker/             # Worker functionality
+├── pkg/                    # Shared packages
+│   ├── handlers/           # Handlers
+│   └── logger/             # Logging
 ```
 
-## ⚙️ Установка и настройка
+## ⚙️ Installation and Setup
 
-1. Клонируйте репозиторий:
+1. Clone the repository:
 ```bash
 git clone https://github.com/your-username/TgTaskBot.git
 cd TgTaskBot
 ```
 
-2. Создайте файл конфигурации `Config/configuration.json`:
+2. Create the configuration file `Config/configuration.json`:
 ```json
 {
     "bot_token": "YOUR_BOT_TOKEN",
     "admin_key": "YOUR_ADMIN_KEY",
-    "positions": ["Охранник", "Уборщик"],
-    "objects": ["Объект 1", "Объект 2"],
+    "positions": ["Security Guard", "Cleaner"],
+    "objects": ["Site 1", "Site 2"],
     "base_dir": "./photos",
     "log_path": "./app.log"
 }
 ```
 
-3. Соберите проект:
+3. Build the project:
 ```bash
-# Для Windows
+# For Windows
 go build -o TgTaskBot.exe main.go
 
-# Для Linux/MacOS
+# For Linux/MacOS
 GOOS=windows GOARCH=amd64 go build -o TgTaskBot.exe main.go
 ```
 
-## 🚀 Запуск
+## 🚀 Running the Bot
 
-1. Через batch файл:
-   - Запустите `start.bat`
+1. Via batch file:
+   - Run `start.bat`
 
-2. Напрямую:
-   - Запустите исполняемый файл `TgTaskBot.exe`
+2. Directly:
+   - Run the executable file `TgTaskBot.exe`
 
-## 📱 Использование бота
+## 📱 Using the Bot
 
-### Начало работы:
-1. Отправьте команду `/start`
-2. Выберите роль (Работник/Администратор)
+### Getting Started:
+1. Send the `/start` command
+2. Select a role (Worker/Admin)
 
-### Для работников:
-1. Выберите роль "Работник"
-2. Выберите объект из списка
-3. Укажите свою должность
-4. Отправьте фотографию
+### For Workers:
+1. Select the "Worker" role
+2. Choose a site from the list
+3. Specify your position
+4. Send a photo
 
-### Для администраторов:
-1. Выберите роль "Администратор"
-2. Введите ключ администратора
-3. Используйте доступные опции:
-   - Просмотр фотографий
-   - Просмотр файловой системы
-   - Просмотр логов
-   - Добавление объектов/должностей
+### For Administrators:
+1. Select the "Admin" role
+2. Enter the admin key
+3. Use available options:
+   - View photos
+   - View file system
+   - View logs
+   - Add sites/positions
 
-## 📁 Структура хранения фотографий
+## 📁 Photo Storage Structure
 
 ```
 photos/
-├── [Должность]/
-│   ├── [Объект]/
-│   │   └── [Дата]/
+├── [Position]/
+│   ├── [Site]/
+│   │   └── [Date]/
 │   │       └── [Username].jpg
 ```
 
-## 🔒 Безопасность
-- Доступ к админ-панели защищен паролем
-- Все действия логируются
-- Фотографии хранятся в организованной структуре
+## 🔒 Security
+- Admin panel access is password-protected
+- All actions are logged
+- Photos are stored in an organized structure
 
-## 📝 Логирование
-- Все действия записываются в `app.log`
-- Логи включают:
-  - Действия пользователей
-  - Ошибки системы
-  - Загрузку фотографий
-  - Административные действия
+## 📝 Logging
+- All actions are recorded in `app.log`
+- Logs include:
+  - User actions
+  - System errors
+  - Photo uploads
+  - Administrative actions
 
-## ⚠️ Обработка ошибок
-- Автоматическое создание необходимых директорий
-- Проверка прав доступа
-- Валидация входных данных
-- Обработка сетевых ошибок
+## ⚠️ Error Handling
+- Automatic creation of required directories
+- Permission checks
+- Input data validation
+- Network error handling
 
-## 🔧 Устранение неполадок
+## 🔧 Troubleshooting
 
-### Распространенные проблемы:
+### Common Issues:
 
-1. **Ошибка конфигурации**
-   - Проверьте наличие `configuration.json`
-   - Убедитесь в правильности токена бота
+1. **Configuration Errors**
+   - Check for the presence of `configuration.json`
+   - Ensure the bot token is correct
 
-2. **Ошибки доступа**
-   - Проверьте права на создание файлов/папок
-   - Убедитесь, что все необходимые директории существуют
+2. **Access Errors**
+   - Check file/folder creation permissions
+   - Ensure all necessary directories exist
 
-3. **Проблемы с отправкой фото**
-   - Проверьте подключение к интернету
-   - Убедитесь, что размер фото не превышает лимиты Telegram
+3. **Photo Upload Problems**
+   - Check internet connection
+   - Ensure photo size does not exceed Telegram limits
 
-## Поддержка
-При возникновении проблем:
-1. Проверьте лог-файл `app.log`
-2. Убедитесь в правильности конфигурации
-3. Проверьте права доступа к файловой системе
+## Support
+If issues arise:
+1. Check the log file `app.log`
+2. Verify the configuration
+3. Check file system access permissions
 
-## 🔄 Обновления
-- Регулярно проверяйте репозиторий на наличие обновлений
-- Сохраняйте резервную копию `configuration.json` перед обновлением
+## 🔄 Updates
+- Regularly check the repository for updates
+- Backup `configuration.json` before updating
 
-## 📜 Лицензия
-MIT License - свободное использование и модификация
+## 📜 License
+MIT License - free to use and modify
 
-## Автор
+## Author
 https://github.com/REKVID
-```
